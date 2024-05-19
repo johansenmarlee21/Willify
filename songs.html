@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willify</title>
+    <link rel = "stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-logo">
+        <header><img src="asset/WILLIFY LOGO.png" alt="Willify" class="logo"></header>
+    </div>
+    <div class="sidebar">
+        <ul>
+            <li><a href="index.html" class="icon-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg><span>Home</span></a></li>
+            <li><a href="songs.html" class="icon-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M499.1 6.3c8.1 6 12.9 15.6 12.9 25.7v72V368c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V147L192 223.8V432c0 44.2-43 80-96 80s-96-35.8-96-80s43-80 96-80c11.2 0 22 1.6 32 4.6V200 128c0-14.1 9.3-26.6 22.8-30.7l320-96c9.7-2.9 20.2-1.1 28.3 5z"/></svg><span>Songs</span></a></li>
+            <li><a href="aboutUs.html" class="icon-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg><span>About us</span></a></li>
+        
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="home-page">
+            <div class="background-box-homepage-bar"></div>
+
+            <div class="horizontal-background-box-homepage">
+                <h1 class="background-box-homepage-title">What's for you?</h1>
+
+                <div class="home-hamburger-menu" id="home-hamburger-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="songs.html">Songs</a></li>
+                        <li><a href="aboutUs.html">About us</a></li>
+                    </ul>
+                </div>
+
+                <div class="svg-hamburger" onclick="showSidebar()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="white" >
+                        <path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128
+                         0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7
+                          0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.
+                          7 0 32 14.3 32 32z"/></svg>
+                </div>
+               
+                <a href="registration.html" class="background-box-homepage-button">
+                    Register
+                </a>
+                
+            </div>
+
+        </div>
+        <!-- <div class="title-songs">
+            <h1>Top Artist's Songs</h1>
+        </div> -->
+
+        <div class="horizontal-topArtist-Songs">
+
+            <div class="slideshow-topArtist-Songs">
+                <div class="ArtistPoster-topArtist-Songs">
+                    <img src="asset/list-artist-songs/artist 1.png">
+    
+                    <h2 class="ArtistName-topArtist-Songs">Ed Sheeran</h2>
+                </div>
+    
+                <div class="vertical-songList-topArtist-Songs">
+                    <!-- ==== song 1=========== -->
+                    <div class="box-Songs">
+                        <div class="songs-box-Songs"></div>
+                        <div class="song-topArtist-Songs">
+                            <img src="asset/list-songs-home/list 4_home.jpeg">
+                            <h2 class="song-topArtist-number-Songs">1</h2>
+                            <h2 class="song-topArtist-songTitle-Songs">Photograph</h2>
+                            <h2 class="song-topArtist-AlbumName-Songs">X</h2>
+                            <h2 class="song-topArtist-views-Songs">1,000,002</h2>
+                        </div>
+                    </div>
+                    <!-- ==== song 2=========== -->
+                    <div class="box-Songs">
+                        <div class="songs-box-Songs"></div>
+                        <div class="song-topArtist-Songs">
+                            <img src="asset/list-artist-songs/equal album ed sheeran.jpg">
+                            <h2 class="song-topArtist-number-Songs">2</h2>
+                            <h2 class="song-topArtist-songTitle-Songs">Shivers</h2>
+                            <h2 class="song-topArtist-AlbumName-Songs">=</h2>
+                            <h2 class="song-topArtist-views-Songs">987,300</h2>
+                        </div>
+                    </div>
+                    <!-- ==== song 3=========== -->
+                    <div class="box-Songs">
+                        <div class="songs-box-Songs"></div>
+                        <div class="song-topArtist-Songs">
+                            <img src="asset/list-songs-home/list 4_home.jpeg">
+                            <h2 class="song-topArtist-number-Songs">3</h2>
+                            <h2 class="song-topArtist-songTitle-Songs">Afire Love</h2>
+                            <h2 class="song-topArtist-AlbumName-Songs">X</h2>
+                            <h2 class="song-topArtist-views-Songs">873,987</h2>
+                        </div>
+                    </div>
+                    <!-- ==== song 4=========== -->
+                    <div class="box-Songs">
+                        <div class="songs-box-Songs"></div>
+                        <div class="song-topArtist-Songs">
+                            <img src="asset/list-artist-songs/equal album ed sheeran.jpg">
+                            <h2 class="song-topArtist-number-Songs">4</h2>
+                            <h2 class="song-topArtist-songTitle-Songs">Tides</h2>
+                            <h2 class="song-topArtist-AlbumName-Songs">=</h2>
+                            <h2 class="song-topArtist-views-Songs">831,876</h2>
+                        </div>
+                    </div>
+                    <!-- ==== song 5=========== -->
+                    <div class="box-Songs">
+                        <div class="songs-box-Songs"></div>
+                        <div class="song-topArtist-Songs">
+                            <img src="asset/list-artist-songs/plus album ed sheeran.jpg">
+                            <h2 class="song-topArtist-number-Songs">5</h2>
+                            <h2 class="song-topArtist-songTitle-Songs">This</h2>
+                            <h2 class="song-topArtist-AlbumName-Songs">+</h2>
+                            <h2 class="song-topArtist-views-Songs">709,999</h2>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+
+
+
+            <!-- =============== 2 ARTIST ====================================== -->
+
+           
+            
+            
+
+            
+            
+
+        </div>
+
+        <div class="title-second-Songs">
+            <h1>Songs</h1>
+        </div>
+
+        <div class="horizontal-songs-Home">
+            <div class="box-songs-Home"></div>
+
+            <div class="horizontal-elementLists-Home" id="horizontal-elementLists-Home">
+                <img src="asset/list-songs-home/list 1_home.jpeg">
+
+                <h2 class="topNumber-songs-Home">1</h2>
+
+                <h2 class="songTitle-songs-Home">What Makes you Beautiful</h2>
+
+                <h2 class="songAuthor-songs-Home">One Direction</h2>
+
+                <h2 class="albumType-songs-Home">Album</h2>
+
+                <h2 class="views-songs-Home">1,000,002</h2>
+            </div>
+        </div>
+        
+
+        <!-- ====TOP2====== -->
+        <div class="horizontal-songs-Home">
+            <div class="box-songs-Home"></div>
+
+            <div class="horizontal-elementLists-Home">
+                <img src="asset/list-songs-home/list 2_home.jpeg">
+
+                <h2 class="topNumber-songs-Home">2</h2>
+
+                <h2 class="songTitle-songs-Home">2002</h2>
+
+                <h2 class="songAuthor-songs-Home">Anne Marie</h2>
+
+                <h2 class="albumType-songs-Home">Album</h2>
+
+                <h2 class="views-songs-Home">979,701</h2>
+            </div>
+
+            
+        </div>
+
+
+
+        <!-- =====TOP3================= -->
+        <div class="horizontal-songs-Home">
+            <div class="box-songs-Home"></div>
+
+            <div class="horizontal-elementLists-Home">
+                <img src="asset/list-songs-home/list 3_home.jpeg">
+
+                <h2 class="topNumber-songs-Home">3</h2>
+
+                <h2 class="songTitle-songs-Home">Cause You Have to</h2>
+
+                <h2 class="songAuthor-songs-Home">Lany</h2>
+
+                <h2 class="albumType-songs-Home">Album</h2>
+
+                <h2 class="views-songs-Home">978,203</h2>
+            </div>
+        </div>
+
+        <!-- ===========TOP4============== -->
+        <div class="horizontal-songs-Home">
+            <div class="box-songs-Home"></div>
+
+            <div class="horizontal-elementLists-Home">
+                <img src="asset/list-songs-home/list 4_home.jpeg">
+
+                <h2 class="topNumber-songs-Home">4</h2>
+
+                <h2 class="songTitle-songs-Home">Photograph</h2>
+
+                <h2 class="songAuthor-songs-Home">Ed Sheeran</h2>
+
+                <h2 class="albumType-songs-Home">Album</h2>
+
+                <h2 class="views-songs-Home">932,675</h2>
+            </div>
+            
+        </div>
+
+        <!-- ===========TOP5============== -->
+        <div class="horizontal-songs-Home">
+            <div class="box-songs-Home"></div>
+
+            <div class="horizontal-elementLists-Home">
+                <img src="asset/list-songs-home/list 5_home.png">
+
+                <h2 class="topNumber-songs-Home">5</h2>
+
+                <h2 class="songTitle-songs-Home">Thinking Out Loud</h2>
+
+                <h2 class="songAuthor-songs-Home">Ed Sheeran</h2>
+
+                <h2 class="albumType-songs-Home">Album</h2>
+
+                <h2 class="views-songs-Home">873,805</h2>
+            </div>
+            
+        </div>
+
+        <!-- ===========TOP6============== -->
+        <div class="horizontal-songs-Home">
+            <div class="box-songs-Home"></div>
+
+            <div class="horizontal-elementLists-Home">
+                <img src="asset/list-songs-home/list 6_home.webp">
+
+                <h2 class="topNumber-songs-Home">6</h2>
+
+                <h2 class="songTitle-songs-Home">About You</h2>
+
+                <h2 class="songAuthor-songs-Home">the 1975</h2>
+
+                <h2 class="albumType-songs-Home">Album</h2>
+
+                <h2 class="views-songs-Home">813,765</h2>
+            </div>
+
+            
+        </div>
+
+        <!-- ===========TOP7============== -->
+        <div class="horizontal-songs-Home">
+            <div class="box-songs-Home"></div>
+
+            <div class="horizontal-elementLists-Home">
+                <img src="asset/list-songs-home/list 8_home.jpg">
+
+                <h2 class="topNumber-songs-Home">7</h2>
+
+                <h2 class="songTitle-songs-Home">Love Somebody</h2>
+
+                <h2 class="songAuthor-songs-Home">Maroon 5</h2>
+
+                <h2 class="albumType-songs-Home">Album</h2>
+
+                <h2 class="views-songs-Home">795,903</h2>
+            </div>
+
+        </div>
+
+        <!-- ===========TOP8============== -->
+        <div class="horizontal-songs-Home">
+            <div class="box-songs-Home"></div>
+
+            <div class="horizontal-elementLists-Home">
+                <img src="asset/list-songs-home/list 9_home.jpg">
+
+                <h2 class="topNumber-songs-Home">8</h2>
+
+                <h2 class="songTitle-songs-Home">Ghost of You</h2>
+
+                <h2 class="songAuthor-songs-Home">Justin Bieber</h2>
+
+                <h2 class="albumType-songs-Home">Album</h2>
+
+                <h2 class="views-songs-Home">743,977</h2>
+            </div>
+            
+        </div>
+
+        <!-- ===========TOP9============== -->
+        <div class="horizontal-songs-Home">
+            <div class="box-songs-Home"></div>
+
+            <div class="horizontal-elementLists-Home">
+                <img src="asset/list-songs-home/list 10_home.webp">
+
+                <h2 class="topNumber-songs-Home">9</h2>
+
+                <h2 class="songTitle-songs-Home">Starboy</h2>
+
+                <h2 class="songAuthor-songs-Home">The Weekend</h2>
+
+                <h2 class="albumType-songs-Home">Album</h2>
+
+                <h2 class="views-songs-Home">711,500</h2>
+            </div>
+
+            
+        </div>
+
+        <!-- ===========TOP10============== -->
+        <div class="horizontal-songs-Home">
+            <div class="box-songs-Home"></div>
+
+            <div class="horizontal-elementLists-Home">
+                <img src="asset/list-songs-home/list 7_home.jpg">
+
+                <h2 class="topNumber-songs-Home">10</h2>
+
+                <h2 class="songTitle-songs-Home">Cruel Summer</h2>
+
+                <h2 class="songAuthor-songs-Home">Taylor Swift</h2>
+
+                <h2 class="albumType-songs-Home">Album</h2>
+
+                <h2 class="views-songs-Home">605,783</h2>
+            </div>
+            
+        </div>
+        <footer>
+            <div class="vertical-footer">
+                <h1>Willify</h1>
+                
+                <div class="footer-description">
+                    Willify: Your gateway to limitless music exploration and enjoyment. Discover, stream, 
+                    connect, and experience music today
+                </div>
+        
+                
+                <div class="horizontal-FooterImage">
+                    <img class="images-logo-footer" src="asset/instagram poster.png">
+                    <img class="images-logo-footer-left" src="asset/twitter poster.png">
+                    <img class="images-logo-footer-left" src="asset/linkedin poster.png">
+                </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+
+    
+    
+    <script src="songsScript.js"></script>
+</body>
+
+
+</html>

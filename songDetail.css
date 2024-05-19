@@ -1,0 +1,650 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #10091C;
+}
+/* 
+======================================== SIDEBAR =================================== */
+.sidebar {
+    width: 215px; /* Adjust width as needed */
+    height: 600px; /* Make the sidebar cover the entire height of the viewport */
+    background-color: #1E1E1E; /* Change the background color as desired */
+    position: fixed; /* Keep the sidebar fixed even when scrolling */
+    top: 148px; /* Position at the top of the viewport */
+    left: 12px;
+    bottom: 12px; /* Position at the left side of the viewport */
+    padding-top: 10px; /* Add some padding to the top to create space for the header */
+    border-radius: 20px;
+    
+}
+
+.sidebar .sidebar-recommendation{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    height: 290px;
+    background-color: #333333;
+    border-radius: 15px;
+    margin-left: 13px;
+}
+
+.sidebar-recommendation-title{
+    margin-top: 17px;
+    margin-left: 10px;
+    font-weight: 800;
+    color: white;
+    font-size: 15px;
+}
+
+.sidebar-recommendation-description{
+    font-weight: 300;
+    color: white;
+    font-size: 15px;
+    width: 165px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.sidebar-recommendation img{
+    width: 165px;
+    height: 83px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.sidebar-reccomendation-link{
+    margin-left: 10px;
+    margin-top: 13px;
+    color: #A18ACD;
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+.sidebar-reccomendation-link:hover{
+    padding-left: 10px;
+}
+.main-logo{
+    position: fixed;
+    width: 215px;
+    height: 119px;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 15px;
+}
+
+.main-logo img{
+    position: center;
+    height: 79px;
+    width: 79px;
+}
+
+
+.sidebar ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+}
+
+
+.sidebar ul li {
+    padding: 15px; /* Add padding to each list item */
+    text-align: left; /* Center-align the list items */
+    padding-left: 30px;
+}
+
+.sidebar ul li a {
+    color: #FFFFFF; /* Set link text color to black */
+    text-decoration: none; /* Remove underline from links */
+    display: flex; /* Make the links behave as block elements */
+    font-size: 18px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    transition: .3s;
+}
+
+ul li:hover a{
+    padding-left: 9px;
+}
+.sidebar ul li a svg{
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+.icon-link{
+    display: flex;
+    align-items: center;
+    fill: #FFFFFF;
+}
+.logo{
+    width: 79px;
+    height: 79px;
+}
+
+.container{
+    margin-left: 239px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ============================= TOP CONTAINER =================================== */
+
+.container .songDetail-top-container{
+    display: flex;
+    flex-direction: row;
+    width: 1250px;
+    height: 223px;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+}
+
+
+.songDetail-top-container-button{
+    text-decoration: none;
+    display: inline-block;
+    width: 115px;
+    height: 45px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    line-height: 49px;
+    font-weight:600;
+}
+
+.songDetail-top-container img{
+    width: 160px;
+    height: 160px;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+.songDetail-top-container-artistInformation{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    gap: 0;
+}
+
+.songDetail-top-container-artistInformation h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: white;
+}
+
+.songDetail-top-container-artistInformation h3{
+    width: 335px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0px;
+    color: white;
+}
+
+
+.songDetail-top-container-songInformation{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: 480px;
+    background-color: #333333;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.songDetail-top-container-songInformation h2{
+    font-size: 15px;
+}
+
+.songDetail-top-container-songInformation-first{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+    font-weight: 400;
+}
+.songDetail-top-container-songInformation-span{
+    color: #7E4ED6;
+    font-weight: 700;
+}
+
+.songDetail-top-container-songInformation-title-third{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #7E4ED6;
+}
+
+.songDetail-top-container-songInformation-relatedArtist{
+    margin-left: 15px;
+    margin-top: 0px;
+    color: white;
+    font-weight: 400;
+}
+
+.songDetail-top-container-songInformation-title{
+    margin-left: 15px;
+    color: white;
+    font-weight: 400;
+}
+
+
+/* ================================== BOTTOM CONTAINER================================= */
+
+.songDetail-lyrics-container{
+    width: 1250px;
+    height: max-content;
+    background-color: #1E1E1E;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.songDetail-lyrics-container h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    margin-left: 20px;
+}
+
+.songDetail-lyrics-container h3{
+    width: 1150px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 50;
+    font-size: 25px;
+}
+
+
+.songDetail-lyrics-container h3 span {
+    display: block;
+    margin-top: 30px; 
+}
+
+
+/* ======================== FOOTER====================== */
+
+.vertical-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.vertical-footer h1{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.footer-description{
+    margin-top: 5px;
+    margin-bottom: 17px;
+    font-size: 15px;
+    color: white;
+    width: 538px;
+    text-align: center;
+}
+
+.horizontal-FooterImage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.horizontal-FooterImage img{
+    width: 28px;
+    height: 28px;
+}
+
+.images-logo-footer-left{
+    margin-left: 12px;
+}
+@media (max-width: 768px){
+    .sidebar {
+        display: none;
+    }
+    .main-logo{
+        display: none;
+    }
+    .container{
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ============================= TOP CONTAINER =================================== */
+
+.container .songDetail-top-container{
+    display: flex;
+    flex-direction: row;
+    width: 730px;
+    height: 223px;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+}
+
+
+.songDetail-top-container-button{
+    text-decoration: none;
+    display: inline-block;
+    width: 50px;
+    height: 38px;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    line-height: 38px;
+    font-weight:600;
+    font-size: 12px;
+}
+
+.songDetail-top-container img{
+    width: 130px;
+    height: 130px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.songDetail-top-container-artistInformation{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    gap: 0;
+}
+
+.songDetail-top-container-artistInformation h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: white;
+}
+
+.songDetail-top-container-artistInformation h3{
+    width: 250px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0px;
+    color: white;
+}
+
+
+.songDetail-top-container-songInformation{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: 220px;
+    background-color: #333333;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.songDetail-top-container-songInformation h2{
+    font-size: 12px;
+}
+
+.songDetail-top-container-songInformation-first{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+    font-weight: 400;
+}
+.songDetail-top-container-songInformation-span{
+    color: #7E4ED6;
+    font-weight: 700;
+}
+
+.songDetail-top-container-songInformation-title-third{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #7E4ED6;
+}
+
+.songDetail-top-container-songInformation-relatedArtist{
+    margin-left: 15px;
+    margin-top: 0px;
+    color: white;
+    font-weight: 400;
+}
+
+.songDetail-top-container-songInformation-title{
+    margin-left: 15px;
+    color: white;
+    font-weight: 400;
+}
+
+/* =========================================== BOTTOM CONTAINER =============================  */
+.songDetail-lyrics-container{
+    width: 730px;
+    height: max-content;
+    background-color: #1E1E1E;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.songDetail-lyrics-container h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    margin-left: 20px;
+}
+
+.songDetail-lyrics-container h3{
+    width: 700px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 50;
+    font-size: 20px;
+}
+
+
+.songDetail-lyrics-container h3 span {
+    display: block;
+    margin-top: 30px; 
+}
+}
+
+@media (max-width: 412px){
+    .sidebar {
+        width: 215px; /* Adjust width as needed */
+        height: 600px; /* Make the sidebar cover the entire height of the viewport */
+        background-color: #1E1E1E; /* Change the background color as desired */
+        position: fixed; /* Keep the sidebar fixed even when scrolling */
+        top: 148px; /* Position at the top of the viewport */
+        left: 12px;
+        bottom: 12px; /* Position at the left side of the viewport */
+        padding-top: 10px; /* Add some padding to the top to create space for the header */
+        border-radius: 20px;
+        display: none;
+        
+    }
+    .main-logo{
+        position: fixed;
+        width: 215px;
+        height: 119px;
+        background-color: #1E1E1E;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 15px;
+        display: none;
+    }
+
+    /* ============================= TOP CONTAINER =================================== */
+
+.container .songDetail-top-container{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: max-content;
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.songDetail-top-container-button{
+    text-decoration: none;
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 260px;
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    line-height: 35px;
+    font-weight:600;
+}
+
+.songDetail-top-container img{
+    width: 180px;
+    height: 180px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.songDetail-top-container-artistInformation{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 0;
+}
+
+.songDetail-top-container-artistInformation h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: white;
+}
+
+.songDetail-top-container-artistInformation h3{
+    width: 310px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0px;
+    color: white;
+}
+
+
+.songDetail-top-container-songInformation{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: 310px;
+    background-color: #333333;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.songDetail-top-container-songInformation h2{
+    font-size: 15px;
+}
+
+.songDetail-top-container-songInformation-first{
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+    font-weight: 400;
+}
+.songDetail-top-container-songInformation-span{
+    color: #7E4ED6;
+    font-weight: 700;
+}
+
+.songDetail-top-container-songInformation-title-third{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #7E4ED6;
+}
+
+.songDetail-top-container-songInformation-relatedArtist{
+    margin-left: 15px;
+    margin-top: 0px;
+    color: white;
+    font-weight: 400;
+}
+
+.songDetail-top-container-songInformation-title{
+    margin-left: 15px;
+    color: white;
+    font-weight: 400;
+}
+
+
+/* ================================== BOTTOM CONTAINER================================= */
+
+.songDetail-lyrics-container{
+    width: 370px;
+    height: max-content;
+    background-color: #1E1E1E;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+
+.songDetail-lyrics-container h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-left: 20px;
+}
+
+.songDetail-lyrics-container h3{
+    width: 310px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 50;
+    font-size: 25px;
+}
+
+
+.songDetail-lyrics-container h3 span {
+    display: block;
+    margin-top: 30px; 
+}
+
+.footer-description{
+    margin-top: 5px;
+    margin-bottom: 17px;
+    font-size: 12px;
+    color: white;
+    width: 270px;
+    text-align: center;
+}
+
+.vertical-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.container{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+

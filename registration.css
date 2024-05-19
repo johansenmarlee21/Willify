@@ -1,0 +1,548 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #10091C;
+}
+
+/* ============================POSTER IMAGE========================= */
+
+/* .registration-posterImage{
+    position: fixed;
+    width: 50%;
+    height: 1000px;
+
+} */
+
+.registration-image{
+    width: 50%;
+    position: fixed;
+    height: 950px;
+}
+
+.registration-image::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('asset/registration/ed\ sheeran\ fix.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ============================== container =================== */
+.registration-container{
+    margin-left: 50%;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.registration-vertical-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-vertical-container img{
+    height: 171px;
+    width: 171px;
+    margin-top: 10px;
+}
+
+
+
+
+.registration-inputBox .registration-inputField{
+    height: 50px;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.registration-inputBox .registration-inputField input{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: #272132;
+    padding-left: 15px;
+    color: white;
+}
+
+.registration-inputBox .registration-inputField input::placeholder {
+    color: #FFFFFF;
+    opacity: 0.7;
+
+}
+
+
+
+/* ======================================= TOGGLE BUTTON ================================== */
+
+.registration-inputField-gender{
+    height: 50px;
+    width: 610px;
+    margin-top: 20px;
+    background-color: #272132;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.registration-inputField-gender h2{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.registration-genderBox{
+    width: 390px;
+    border-radius: 50px;
+    background: #272132;
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 145px;
+    height: 50px;
+}
+
+.registration-toggle-button{
+    padding: 10px 85px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#registration-button{
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 195px;
+    height: 100%;
+    background: #7E4ED6;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+
+/* ======================================= SLIDERRR================================ */
+
+.registration-inputField-age{
+    height: 50px;
+    width: 610px;
+    margin-top: 20px;
+    background-color: #272132;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.registration-inputField-age h2{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    margin-left: 15px;
+}
+
+.registration-ageSlider-input{
+    width: 450px;
+    height: 8px;
+    background-color: #7E4ED6;
+    -webkit-appearance: none;
+    border-radius: 20px;
+    outline: none;
+    margin-left: 20px;
+}
+
+.registration-ageSlider-show{
+    width: 50px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registration-ageSlider-show span{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+
+/* 
+================================ BUTTON REGISTER============================ */
+
+
+.registration-mainButton{
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    margin-top: 40px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 768px){
+    html{
+        overflow-x: hidden;
+    }
+
+
+    .registration-image{
+        width: 50%;
+        position: fixed;
+        height: 950px;
+        display: none;
+    }
+
+    .registration-container{
+        width: 730px;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: red; */
+        overflow-x: hidden;
+    }
+    
+    
+    .registration-vertical-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .registration-vertical-container img{
+        height: 171px;
+        width: 171px;
+        margin-top: 40px;
+    }
+    
+    
+    
+    
+    .registration-inputBox .registration-inputField{
+        height: 50px;
+        width: 500px;
+        margin-top: 30px;
+    }
+    
+    .registration-inputBox .registration-inputField input{
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        background-color: #272132;
+        padding-left: 15px;
+        color: white;
+    }
+    
+    .registration-inputBox .registration-inputField input::placeholder {
+        color: #FFFFFF;
+        opacity: 0.7;
+    
+    }
+
+
+    /* ==================================== TOGGLE ================== */
+    .registration-inputField-gender{
+        height: 50px;
+        width: 500px;
+        margin-top: 30px;
+        background-color: #272132;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+
+    }
+    
+    .registration-inputField-gender h2{
+        font-size: 15px;
+        font-weight: 400;
+        color: white;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    
+    .registration-genderBox{
+        width: 400px;
+        border-radius: 20px;
+        background: #272132;
+        /* background: red; */
+        position: relative;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        height: 50px;
+    }
+    
+    .registration-toggle-button{
+        padding: 10px 80px;
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+        outline: none;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    
+    #registration-button{
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 200px;
+        height: 100%;
+        background: #7E4ED6;
+        border-radius: 20px;
+        transition: .3s;
+    }
+
+
+    /* ========================= SLIDER============================ */
+    .registration-inputField-age{
+        height: 50px;
+        width: 515px;
+        margin-top: 30px;
+        background-color: #272132;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .registration-inputField-age h2{
+        font-size: 15px;
+        font-weight: 400;
+        color: white;
+        margin-left: 15px;
+    }
+    
+    .registration-ageSlider-input{
+        width: 370px;
+        height: 8px;
+        background-color: #7E4ED6;
+        -webkit-appearance: none;
+        border-radius: 20px;
+        outline: none;
+        margin-left: 20px;
+    }
+    
+    .registration-ageSlider-show{
+        width: 50px;
+        height: 40px;
+        background-color: black;
+        border-radius: 10px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .registration-ageSlider-show span{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+    }
+
+
+}
+
+
+@media (max-width: 412px){
+    html{
+        overflow-x: hidden;
+    }
+
+
+    .registration-image{
+        width: 50%;
+        position: fixed;
+        height: 950px;
+        display: none;
+    }
+
+    .registration-container{
+        width: 390px;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: red; */
+        overflow-x: hidden;
+    }
+    
+    
+    .registration-vertical-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .registration-vertical-container img{
+        height: 171px;
+        width: 171px;
+        margin-top: 40px;
+    }
+    
+    
+    
+    
+    .registration-inputBox .registration-inputField{
+        height: 50px;
+        width: 310px;
+        margin-top: 30px;
+    }
+    
+    .registration-inputBox .registration-inputField input{
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        border: none;
+        outline: none;
+        background-color: #272132;
+        padding-left: 15px;
+        color: white;
+    }
+    
+    .registration-inputBox .registration-inputField input::placeholder {
+        color: #FFFFFF;
+        opacity: 0.7;
+    
+    }
+
+
+    /* ==================================== TOGGLE ================== */
+    .registration-inputField-gender{
+        height: 50px;
+        width: 310px;
+        margin-top: 30px;
+        background-color: #272132;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+
+    }
+    
+    .registration-inputField-gender h2{
+        font-size: 15px;
+        font-weight: 400;
+        color: white;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    
+    .registration-genderBox{
+        width: 210px;
+        border-radius: 20px;
+        background: #272132;
+        /* background: red; */
+        position: relative;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+        height: 50px;
+    }
+    
+    .registration-toggle-button{
+        padding: 10px 35px;
+        cursor: pointer;
+        background: transparent;
+        border: 0;
+        outline: none;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    
+    #registration-button{
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 105px;
+        height: 100%;
+        background: #7E4ED6;
+        border-radius: 20px;
+        transition: .3s;
+    }
+
+
+    /* ========================= SLIDER============================ */
+    .registration-inputField-age{
+        height: 50px;
+        width: 330px;
+        margin-top: 30px;
+        background-color: #272132;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .registration-inputField-age h2{
+        font-size: 15px;
+        font-weight: 400;
+        color: white;
+        margin-left: 15px;
+    }
+    
+    .registration-ageSlider-input{
+        width: 190px;
+        height: 8px;
+        background-color: #7E4ED6;
+        -webkit-appearance: none;
+        border-radius: 20px;
+        outline: none;
+        margin-left: 20px;
+    }
+    
+    .registration-ageSlider-show{
+        width: 50px;
+        height: 40px;
+        background-color: black;
+        border-radius: 10px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .registration-ageSlider-show span{
+        background-color: black;
+        color: white;
+        font-size: 15px;
+    }
+
+
+}

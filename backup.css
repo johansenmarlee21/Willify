@@ -1,0 +1,195 @@
+@media (max-width: 1440px){
+    .main-logo{
+        position: fixed;
+        width: 170px;
+        height: 119px;
+        background-color: #1E1E1E;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 15px;
+    }
+    
+    .main-logo img{
+        position: center;
+        height: 79px;
+        width: 79px;
+    }
+
+    .sidebar {
+        width: 170px; /* Adjust width as needed */
+        height: 100%; /* Make the sidebar cover the entire height of the viewport */
+        background-color: #1E1E1E; /* Change the background color as desired */
+        position: fixed; /* Keep the sidebar fixed even when scrolling */
+        top: 148px; /* Position at the top of the viewport */
+        left: 12px;
+        bottom: 12px; /* Position at the left side of the viewport */
+        padding-top: 10px; /* Add some padding to the top to create space for the header */
+        border-radius: 20px;
+        
+    }
+
+    
+    .sidebar ul li {
+        padding: 15px; /* Add padding to each list item */
+        text-align: left; /* Center-align the list items */
+        padding-left: 20px;
+    }
+    
+    .sidebar ul li a {
+        color: #FFFFFF; /* Set link text color to black */
+        text-decoration: none; /* Remove underline from links */
+        display: flex; /* Make the links behave as block elements */
+        font-size: 18px;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        transition: .3s;
+    }
+
+    .container{
+        width: 850px;
+        margin-left: 194px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background-box-homepage-bar{
+        position: relative;
+        background-color: #1E1E1E;
+        width: 835px;
+        height: 67px;
+        border-radius: 20px;
+    
+    }
+    .horizontal-background-box-homepage{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        top: 10px;
+        margin-left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        align-items: center;
+    }
+    
+    .background-box-homepage-title{
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        margin-right: 430px;
+    }
+    
+    .horizontal-background-box-homepage svg{
+        width: 29px;
+        height: 36px;
+    }
+    
+    .background-box-homepage-button{
+        width: 119px;
+        height: 36px;
+        background-color: #7E4ED6;
+        border-radius: 13px;
+        margin-left: 15px;
+        border: none;
+        color: white;
+        font-size: 17px;
+        font-weight: 400;
+        margin-right: 40px;
+    }
+
+    .slideshow-container img{
+        height: 210px;
+        width: 835px;
+        border-radius: 30px;
+    }
+    .photo-songTitle-text-Home{
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .photo-songAuthor-text-Home{
+        color: white;
+        font-size: 15px;
+        top: 70px;
+        font-weight: 400;
+        margin-top: 5px;
+      
+    }
+
+    .willify-description{
+        font-size: 15px;
+        color: white;
+        width: 400px;
+        margin-top: 21px;
+    }
+
+    .top-songs img{
+        margin-left: 24px;
+        width: 120px;
+        height: 120px;
+    }
+    .horizontal-songs-Home{
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        width: 835px;
+        align-items: center;
+        border-radius: 17px;
+        margin-top: 12px;
+        opacity: 1;
+        position: relative;
+    }
+
+    .box-songs-Home{
+        position: relative;
+        z-index: 1;
+        background-color: #1E1E1E;
+        width: 835px;
+        height: 50px;
+        border-radius: 17px;
+        display: flex;
+        align-items: center;
+        opacity: 0.7;
+    }
+
+    .horizontal-songs-Home img{
+        width: 38px;
+        height: 38px;
+        margin-left: 20px;
+        border-radius: 7px;
+    }
+    
+    .horizontal-songs-Home h2{
+        font-size: 15px;
+        color: white;
+        font-weight: 200;
+    }
+    
+    .topNumber-songs-Home{
+        margin-left: 15px;
+        flex: 0 0 auto;
+        width: 50px;
+    }
+    
+    .songTitle-songs-Home{
+        width: 250px;
+        margin-left: 5px;
+    }
+    
+    .songAuthor-songs-Home{
+        width: 150px;
+        margin-left: 15px;
+    }
+    
+    .albumType-songs-Home{
+        width: 100px;
+        margin-left: 40px;
+    }
+    
+    .views-songs-Home{ 
+        width: 100px;
+        margin-left: 50px;
+    }
+}
