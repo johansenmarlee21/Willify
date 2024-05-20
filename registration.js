@@ -5,7 +5,13 @@ function leftClick(){
 }
 
 function rightClick(){
-    btn.style.left = '200px'
+    if(window.innerWidth <= 412){
+        btn.style.left = '105px'
+    }
+    else{
+        btn.style.left = '200px'
+    }
+    
 }
 
 const slideValue = document.querySelector("span");
